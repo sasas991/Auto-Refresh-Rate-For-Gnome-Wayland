@@ -23,7 +23,7 @@ STEP 1.
 ```nano ~/bin/power-refresh.sh```
 
 2. Replace the refresh values and commands with your own:
-#!/bin/bash
+```#!/bin/bash
 
 # path to AC adapter according to upower
 AC_PATH="/org/freedesktop/UPower/devices/line_power_ACAD"
@@ -39,10 +39,10 @@ else
     echo "On battery — low refresh rate"
     # your battery-Hz command
     displayconfig-mutter set --connector eDP-1 --refresh-rate 60
-fi
+fi```
 
 3. Make it executable
-chmod +x ~/bin/power-refresh.sh
+```chmod +x ~/bin/power-refresh.sh```
 
 STEP 2.
 
