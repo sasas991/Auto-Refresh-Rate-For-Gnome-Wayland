@@ -19,8 +19,8 @@ We build this in three parts:
 displayconfig-mutter (works with GNOME/Wayland; install from COPR or build),
 STEP 1.
 1. Create the script file
-mkdir -p ~/bin
-nano ~/bin/power-refresh.sh
+```mkdir -p ~/bin```
+```nano ~/bin/power-refresh.sh```
 
 2. Replace the refresh values and commands with your own:
 #!/bin/bash
